@@ -6,7 +6,7 @@ SRC_DIR = src
 SRC_FILES = $(SRC_DIR)/glad.c main.cpp
 OBJ_FILES = $(SRC_FILES:.cpp=.o)
 
-TARGET = simulation
+TARGET = main
 
 all: $(TARGET)
 
